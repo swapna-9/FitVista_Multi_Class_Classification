@@ -1,30 +1,31 @@
 # FitVista: Sculpting Wellness, Shaping Lives
-FitVista harnesses machine learning to empower fitness professionals and healthcare providers with a robust obesity classification model. By analyzing lifestyle and behavioral data, our model categorizes individuals into various obesity risk levels, offering actionable insights for tailored interventions.
+FitVista a fictional company harnesses machine learning to empower fitness professionals and healthcare providers with a robust obesity classification model. By analyzing lifestyle and behavioral data, our model categorizes individuals into various obesity risk levels, offering actionable insights for tailored interventions.
+
 
 ## Key Highlights:
 Models Used: Random Forest (best performer), XGBoost (variable performance), Logistic Regression (less effective for complex patterns).
+
 Beneficiaries: Fitness experts, healthcare providers, and individuals seeking personalized wellness strategies.
 ## Future Vision:
 Expand data sources for increased accuracy.
+
 Integrate personalized health plans and mobile apps for real-time wellness guidance.
+
 FitVista redefines fitness by making data-driven, personalized health a reality.
 
 ## Project Setup
 Clone the Repository:
-``` bash
-Copy code
+```bash
 git clone https://github.com/swapna-9/FitVista_Multi_Class_Classification.git
-``` `
-Install Dependencies:
-``` bash
-Copy code
-pip install -r requirements.txt
-``` `
-Run the Model: Dive into the src folder to explore the code and see the model in action.
 ```
-## Project Structure
+Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+Run the Model: Dive into the src folder to explore the code and see the model in action
 
-Copy code
+## Project Structure
+```plaintext
 ├── data
 │   ├── Obesity_DataSet.csv
 │   └── __init__.py
@@ -47,10 +48,13 @@ Copy code
     ├── __init__.py
     ├── obesity_predict.ipynb
     └── obesity_predict.py
-
+```
 ## Description of Key Folders:
 
-data/: Contains the raw dataset and initialization files.
-outputs/: Stores visualizations and results, including model comparisons and performance metrics.
-slides/: Presentation files (PDF and PowerPoint) showcasing the project overview and findings.
-src/: Source code for data processing, model training, and prediction scripts.
+data/: Contains the raw dataset and initialization files
+
+outputs/: Stores visualizations and results, including model comparisons and performance metrics
+
+slides/: Presentation files (PDF and PowerPoint) showcasing the project overview and findings
+
+src/: Source code for data processing, model training, and prediction scripts
